@@ -5,8 +5,8 @@
 
     <parent>
         <groupId>liga.medical</groupId>
-        <artifactId>dependency-managment-bom</artifactId>
-        <version>0.0.1</version>
+        <artifactId>dependency-management-bom</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
         <relativePath>../dependency-management-bom/pom.xml</relativePath>
     </parent>
 
@@ -17,10 +17,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.validation</groupId>
-            <artifactId>validation-api</artifactId>
         </dependency>
     </dependencies>
 </project>
